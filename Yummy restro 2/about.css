@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/Images/about.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-bg h2 {
+  font-family: "Yesteryear", serif;
+  font-size: 70px;
+  color: white;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+.about-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  padding: 5px 100px;
+}
+.about-head h1 {
+  color: palevioletred;
+  font-family: "Yesteryear", serif;
+  font-size: 60px;
+}
+.about-head p {
+  font-family: "Montserrat", serif;
+  font-size: large;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+}
+.about-mission {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 100px;
+  gap: 30px;
+}
+.about-mission h1 {
+  color: palevioletred;
+  font-size: 60px;
+  font-family: "Yesteryear", serif;
+  border-bottom: 2px dotted red;
+  height: fit-content;
+  width: 100%;
+}
+.about-mission p {
+  font-family: "Montserrat", serif;
+  font-size: large;
+  letter-spacing: 2px;
+  text-align: justify;
+  font-weight: 500;
+  line-height: 30px;
+}
+.about-mission p img {
+  float: right;
+  padding: 10px;
+  padding-left: 55px;
+  height: 500px;
+}
+.about-stats {
+  background-color: palevioletred;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 20px;
+  /* gap: 60px; */
+}
+.stats-card {
+  height: fit-content;
+  width: fit-content;
+
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.stats-card h2 {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  color: white;
+}
+.stats-card h3 {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  color: white;
+  width: 200px;
+
+  text-align: center;
+}
+.stats-card i {
+  color: white;
+  font-size: 100px;
+}
+.team {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 100px;
+  gap: 30px;
+}
+.team-photos h1 {
+  color: palevioletred;
+  font-size: 60px;
+  font-family: "Yesteryear", serif;
+  border-bottom: 2px dotted red;
+  height: fit-content;
+  width: 100%;
+}
+.team-members {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  gap: 90px;
+  padding: 40px 0;
+  overflow-y: hidden;
+  justify-content: flex-start;
+  
+  
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-cards {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.card-name {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", serif;
+}
+.team-cards img {
+  border-radius: 50%;
+  height: 300px;
+
+  border: 3px solid red;
+}
+.test{
+  width: 100%;
+  height: 400px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  overflow-y: scroll;
+}
+.text-box{
+  width: 400px;
+  height: 100%;
+background-color: brown;
+min-width: 400px;
+
+}
