@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/Images/contact2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.contact-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-bg h2 {
+  font-family: "Yesteryear", serif;
+  font-size: 70px;
+  color: white;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+.contact-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  padding: 5px 30px;
+}
+.contact-head h1 {
+  color: palevioletred;
+  font-family: "Yesteryear", serif;
+  font-size: 60px;
+}
+.contact-head p {
+  font-family: "Montserrat", serif;
+  font-size: large;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+}
+.info {
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.card-info {
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  height: fit-content;
+  padding: 20px;
+  gap: 20px;
+  box-shadow: 0 0 14px grey;
+}
+.card-info i {
+  font-size: 40px;
+  color: palevioletred;
+}
+.card-info h2 {
+  font-weight: 500;
+  font-family: "Montserrat", serif;
+}
+.card-info h3 {
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+  letter-spacing: 2px;
+}
+
+.message {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.head {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.head {
+  color: palevioletred;
+  font-family: "Yesteryear", serif;
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.message-form{
+    width: 60%;
+    height: fit-content;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   border: 2px dotted palevioletred;
+   border-radius: 2px;
+   gap: 30px;
+
+  
+}
+.form-row{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.row-1{
+    
+    flex-direction: row;
+
+}
+.row-1-name{
+    width: 50%;
+    height: fit-content;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+
+}
+.row-1-name input, .row-2 input{
+width: 100%;
+height: fit-content;
+padding: 10px 12px;
+font-family: "Montserrat", serif;
+
+}
+.row-3 textarea{
+    width: 100%;
+height: 100px;
+resize: none;
+padding: 10px 12px;
+
+font-family: "Montserrat", serif;
+}
+.message-form label{
+    font-family: "Montserrat", serif;
+    font-size: larger;
+}
+.message-form button{
+    width: 100%;
+    height: fit-content;
+    background-color: palevioletred;
+    padding: 12px 8px;
+    font-family: "Montserrat", serif;
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+    border: none;
+    
+}
